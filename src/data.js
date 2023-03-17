@@ -7,15 +7,18 @@ import {
   FaGitAlt,
   FaGithubSquare,
   FaLink,
+  FaSass
 } from "react-icons/fa";
-import { SiJavascript, SiStyledcomponents, SiRedux } from "react-icons/si";
+import { SiJavascript, SiPostgresql, SiRedux, SiNodedotjs } from "react-icons/si";
 
 // Projects Images (add your images to the images directory and import below)
-import Logo from "./images/logo.svg";
+import CA from "./images/CA.png";
+import RM from "./images/RM.jpg";
+import DOGS from "./images/DOGS.png";
 
 // Hero Images (add your images to the /images directory with the same names)
 import HeroLight from "./images/hero-light.jpg";
-import HeroDark from "./images/hero-dark.jpg";
+import HeroDark from "./images/Fi.png";
 // If you change the import names above then you need to change the export names below
 export { HeroLight as Light };
 export { HeroDark as Dark };
@@ -24,7 +27,7 @@ export { HeroDark as Dark };
  **************************************************************
   Add your GitHub username (string - "YourUsername") below.
 */
-export const githubUsername = "Your GitHub username here";
+export const githubUsername = "YoelPreza";
 
 // Blog link icon (imported above)
 export const Blog = <FaLink />;
@@ -34,7 +37,7 @@ export const Blog = <FaLink />;
   Add a second paragraph for the about me section.
 */
 export const moreInfo =
-  "I enjoy learning about technology and helping others use it to improve their lives and be more productive. I built this site with React, React Bootstrap, Redux, and the GitHub REST API.";
+  "💻 I am a Fullstack developer passionate about creating innovative and efficient solutions. I specialize in developing web applications .🤝🏼 I love working in a team and I am always looking to learn new things.🔍 If you're interested to know more about my projects, take a look at my GitHub profile!";
 
 /* Skills
  ************************************************************** 
@@ -68,8 +71,9 @@ export const skillData = [
   },
   {
     id: 6,
-    skill: <SiStyledcomponents className="display-4" />,
-    name: "Styled Components",
+    skill: <SiPostgresql className="display-4" />,
+    name: "Postgresql",
+    
   },
   {
     id: 7,
@@ -86,6 +90,16 @@ export const skillData = [
     skill: <FaGithubSquare className="display-4" />,
     name: "GitHub",
   },
+  {
+    id: 10,
+    skill: <FaSass className="display-4" />,
+    name: "Sass",
+  },
+  {
+    id: 11,
+    skill: <SiNodedotjs className="display-4" />,
+    name: "Nodejs",
+  },
 ];
 
 // Resume link (string - "https://YourResumeUrl") - I am using CloudFront to share my resume (https://docs.aws.amazon.com/AmazonCloudFront/latest/DeveloperGuide/Introduction.html)
@@ -95,14 +109,25 @@ export const resume = null;
  ************************************************************** 
   List the repo names (string - "your-repo-name") you want to include (they will be sorted alphabetically). If empty, only the first 3 will be included.
 */
-export const filteredProjects = ["example-1", "example-2", "example-3"];
+export const filteredProjects = ["CodeAdvisor", "Rick-and-Morty", "PI-Dogs-main"];
 
 // Replace the defualt GitHub image for matching repos below (images imported above - lines 13-14)
 export const projectCardImages = [
   {
-    name: "example-1",
-    image: Logo,
+    name: "CodeAdvisor",
+    image: CA,
+    
   },
+  {
+    name: "Rick-and-Morty",
+    image: RM,
+  },
+  {
+    name: "PI-Dogs-main",
+    image: DOGS,
+  },
+
+
 ];
 
 /* Contact Info

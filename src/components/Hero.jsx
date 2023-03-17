@@ -5,7 +5,7 @@ import styled from "styled-components";
 // Icons
 import { FaChevronCircleDown } from "react-icons/fa";
 // Media
-import Logo from "../images/logo.svg";
+import Prof from "../images/profi.png";
 import { Light, Dark } from "../data";
 // Components
 import { Col, Container, Row } from "react-bootstrap";
@@ -52,6 +52,16 @@ const StyledHero = styled.header`
   .down-container {
     height: 10rem;
   }
+ .h2f{
+  font-family: monospace;
+    color: #ffc107;
+    font-size: 40px;
+ }
+
+ .imgI{
+  width: 220px;
+  margin-top: 10px;
+ }
 
   @media (prefers-reduced-motion: no-preference) {
     .hero-img {
@@ -89,15 +99,16 @@ export default function Hero() {
         <Row className="align-items-center text-center">
           <Col>
             <h1 className="mb-3 display-3 title">{name}</h1>
+            <h2 className="h2f">Full Stack Developer</h2>
             <div className="d-flex align-items-center justify-content-center">
               <SocialLinks />
             </div>
           </Col>
           <Col className="d-none d-md-block">
             <img
-              src={Logo}
-              alt="React Logo"
-              className="w-75 mx-auto hero-img"
+              src={Prof}
+              alt="React Logo" 
+              className="imgI"
             />
           </Col>
         </Row>
