@@ -4,10 +4,15 @@ import SocialLinks from "./SocialLinks";
 
 const StyledFooter = styled.footer`
   min-height: var(--min-footer-height);
-  background: var(--primary);
+  
+  background: ${({ theme }) =>
+      theme.name === "light"
+        ? "yellow"
+        : "red"};
 
   a {
-    color: #45413c;
+    margin: 0 1rem;
+    color: black;
 
     &:hover {
       color: #fbfdff;
@@ -18,7 +23,11 @@ const StyledFooter = styled.footer`
 export default function Footer() {
   return (
     <StyledFooter className="d-flex align-items-center justify-content-center p-2">
-      <SocialLinks />
+      <SocialLinks /> 
+     
+      <h3>Thanks for whatch my Portfolio! </h3> 
+
+      
     </StyledFooter>
   );
 }

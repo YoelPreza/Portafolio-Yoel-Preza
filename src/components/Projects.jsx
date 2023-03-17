@@ -51,7 +51,7 @@ export default function Projects() {
         <Container>
           <Container className="d-flex">
             <Title>
-              <h2>Projects</h2>
+              <h2 color="red">Projects</h2>
               <div className="underline"></div>
             </Title>
           </Container>
@@ -68,7 +68,7 @@ export default function Projects() {
           )}
           {mainProjects.length !== 0 && (
             <>
-              <Row xs={1} md={2} lg={3} className="g-4 justify-content-center">
+              <Row xs={1} md={3} lg={3} className="g-3 justify-content-center">
                 {mainProjects.map(function ({
                   id,
                   image,

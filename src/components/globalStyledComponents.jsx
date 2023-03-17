@@ -36,7 +36,7 @@ export const Loading = styled.div`
 
 // Spacer for fixed Navigation bar
 export const FixedNavSpacer = styled.div`
-  height: var(--nav-height);
+  height: var(--nav-height);-
 `;
 
 // Theme Toggle

@@ -54,7 +54,7 @@ const StyledHero = styled.header`
   }
  .h2f{
   font-family: monospace;
-    color: #ffc107;
+    color: red;
     font-size: 40px;
  }
 

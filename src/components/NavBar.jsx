@@ -5,7 +5,7 @@ import { Link } from "react-scroll";
 import { Container, Nav, Navbar } from "react-bootstrap";
 import { FixedNavSpacer, ToggleSwitch } from "./globalStyledComponents";
 // Images
-import Logo from "../images/logo.svg";
+import Logo from "../images/logo yoel.png";
 
 export default function NavBar() {
   const { theme, isExpanded, closeExpanded, toggleExpanded } = useAppContext();
@@ -30,7 +30,7 @@ export default function NavBar() {
               width="35"
               height="35"
               className={
-                theme === "light"
+                theme === "light" 
                   ? "bg-dark rounded-circle"
                   : "bg-light rounded-circle"
               }

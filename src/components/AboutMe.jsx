@@ -12,6 +12,9 @@ const StyledAboutMe = styled.section`
   p {
     font-size: 1.25rem;
   }
+  h2{
+    color: red;
+  }
   .img {
     width: 18rem;
     height: 18rem;

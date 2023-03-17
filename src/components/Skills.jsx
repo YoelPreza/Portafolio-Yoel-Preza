@@ -14,13 +14,13 @@ export default function Skills() {
       <section className="section">
         <Container className="text-center">
           <Title>
-            <h2>Skills</h2>
+            <h2 color="red">Skills</h2>
             <div className="underline"></div>
           </Title>
-          <Row className="mt-3 align-items-center">
+          <Row className="mt-2 align-items-center">
             {skillData.map((skills) => {
               return (
-                <Col xs={4} key={skills.id} className="my-md-5">
+                <Col xs={3} key={skills.id} className="my-md-4">
                   <figure>
                     {skills.skill}
                     <figcaption>{skills.name}</figcaption>

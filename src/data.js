@@ -109,7 +109,7 @@ export const resume = null;
  ************************************************************** 
   List the repo names (string - "your-repo-name") you want to include (they will be sorted alphabetically). If empty, only the first 3 will be included.
 */
-export const filteredProjects = ["CodeAdvisor", "Rick-and-Morty", "PI-Dogs-main"];
+export const filteredProjects = ["CodeAdvisor", "Rick-and-Morty", "PI-Dogs"];
 
 // Replace the defualt GitHub image for matching repos below (images imported above - lines 13-14)
 export const projectCardImages = [
@@ -123,7 +123,7 @@ export const projectCardImages = [
     image: RM,
   },
   {
-    name: "PI-Dogs-main",
+    name: "PI-Dogs",
     image: DOGS,
   },
 
@@ -135,4 +135,4 @@ export const projectCardImages = [
   Add your formspree endpoint below.
   https://formspree.io/
 */
-export const formspreeUrl = "https://formspree.io/f/YourEndpoint";
+export const formspreeUrl = "https://formspree.io/f/xayzbgnk";

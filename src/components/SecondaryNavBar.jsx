@@ -26,7 +26,7 @@ export default function SecondaryNavBar() {
         <Container>
           <Navbar.Brand>
             <img
-              alt="React Logo"
+              alt="My Logo"
               src={Logo}
               width="35"
               height="35"

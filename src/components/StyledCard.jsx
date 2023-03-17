@@ -12,6 +12,7 @@ const StyledCardComponent = styled.div`
     border-top: var(--border);
 
     .card-link {
+      margin-top: 5px;
       text-decoration: none;
       font-size: 1.5rem;
       color: ${({ theme }) => theme.color};

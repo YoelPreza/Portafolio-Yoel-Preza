@@ -10,7 +10,7 @@ Variables
   --primary-light: #b0edfd;
   /* Primary Color */
   --primary: #61DBFB;
-  --primary-dark: #316e7e;
+  --primary-dark: black;
   --border: 1px solid #61DBFB;
   --transition: all 0.3s linear;
   --nav-height: 61px;
@@ -33,7 +33,8 @@ a:hover {
 }
 
 .navbar {
-  border-bottom: var(--border);
+  border-bottom: red;
+  background-color:red;
 }
 
 .link-icons {
