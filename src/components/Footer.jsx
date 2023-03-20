@@ -25,7 +25,7 @@ export default function Footer() {
     <StyledFooter className="d-flex align-items-center justify-content-center p-2">
       <SocialLinks /> 
      
-      <h3>Thanks for whatch my Portfolio! </h3> 
+      <h3>Thank you for visiting! </h3> 
 
       
     </StyledFooter>

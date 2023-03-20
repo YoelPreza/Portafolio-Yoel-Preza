@@ -6,10 +6,10 @@ import styled from "styled-components";
 import { FaChevronCircleDown } from "react-icons/fa";
 // Media
 import Prof from "../images/profi.png";
-import { Light, Dark } from "../data";
+// import { Light, Dark } from "../data";
 // Components
 import { Col, Container, Row } from "react-bootstrap";
-import { Spin } from "./globalStyledComponents";
+// import { Spin } from "./globalStyledComponents";
 import SocialLinks from "./SocialLinks";
 
 const StyledHero = styled.header`
@@ -27,10 +27,9 @@ const StyledHero = styled.header`
     left: 0;
     width: 100%;
     height: 100%;
-    background: ${({ theme }) =>
-      theme.name === "light"
-        ? "linear-gradient(135deg, var(--primary), var(--bs-light))"
-        : "linear-gradient(135deg, var(--primary), var(--bs-dark))"};
+
+     
+   
     z-index: -2;
   }
 
@@ -62,32 +61,7 @@ const StyledHero = styled.header`
   width: 220px;
   margin-top: 10px;
  }
-
-  @media (prefers-reduced-motion: no-preference) {
-    .hero-img {
-      animation: ${Spin} infinite 20s linear;
-    }
-  }
-
-  @media screen and (min-width: 1180px) {
-    &::before {
-      background: ${({ theme }) =>
-        theme.name === "light"
-          ? `url(${Light}) top center fixed no-repeat`
-          : `url(${Dark}) top center fixed no-repeat`};
-      background-size: 100vw auto;
-    }
-  }
-
-  @media screen and (min-width: 1367px) {
-    &::before {
-      background: ${({ theme }) =>
-        theme.name === "light"
-          ? `url(${Light}) center center fixed no-repeat`
-          : `url(${Dark}) center center fixed no-repeat`};
-      background-size: cover;
-    }
-  }
+ 
 `;
 
 export default function Hero() {
@@ -105,9 +79,9 @@ export default function Hero() {
             </div>
           </Col>
           <Col className="d-none d-md-block">
-            <img
+            <img 
               src={Prof}
-              alt="React Logo" 
+              alt="Avatar" 
               className="imgI"
             />
           </Col>

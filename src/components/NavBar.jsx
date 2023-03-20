@@ -6,7 +6,7 @@ import { Container, Nav, Navbar } from "react-bootstrap";
 import { FixedNavSpacer, ToggleSwitch } from "./globalStyledComponents";
 // Images
 import Logo from "../images/logo yoel.png";
-
+import LogoLigth from "../images/logo_yoel_verde.png"
 export default function NavBar() {
   const { theme, isExpanded, closeExpanded, toggleExpanded } = useAppContext();
 
@@ -24,17 +24,23 @@ export default function NavBar() {
       >
         <Container>
           <Navbar.Brand>
-            <img
-              alt="React Logo"
-              src={Logo}
+            {theme === "light" ? <img 
+              alt="Logo Yoel"
+              src={LogoLigth}
               width="35"
               height="35"
-              className={
-                theme === "light" 
-                  ? "bg-dark rounded-circle"
-                  : "bg-light rounded-circle"
-              }
+        
+              // className={
+              //   theme === "light" 
+              //     ? "bg-dark rounded-circle"
+              //     : "bg-light rounded-circle"
+              // }
             />
+          : <img 
+          alt="Logo Yoel"
+          src={Logo}
+          width="35"
+          height="35"/>  }
           </Navbar.Brand>
           <Navbar.Toggle
             aria-controls="responsive-navbar-nav"
