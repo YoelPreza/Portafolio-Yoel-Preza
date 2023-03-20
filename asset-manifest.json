@@ -1,23 +1,24 @@
 {
   "files": {
     "main.css": "/Portafolio-Yoel-Preza/static/css/main.deb5c223.css",
-    "main.js": "/Portafolio-Yoel-Preza/static/js/main.d603a538.js",
+    "main.js": "/Portafolio-Yoel-Preza/static/js/main.a848597d.js",
     "static/media/DOGS.png": "/Portafolio-Yoel-Preza/static/media/DOGS.0305ad33f0a8a9b82e65.png",
     "static/media/CA.png": "/Portafolio-Yoel-Preza/static/media/CA.ffcfad8420f949112336.png",
     "static/media/profi.png": "/Portafolio-Yoel-Preza/static/media/profi.ac4286e6329714c57600.png",
     "static/media/hero-light.jpg": "/Portafolio-Yoel-Preza/static/media/hero-light.78b77836d8aee4d7d3cb.jpg",
     "static/media/RM.jpg": "/Portafolio-Yoel-Preza/static/media/RM.b6493733415835894075.jpg",
     "static/media/Fi.png": "/Portafolio-Yoel-Preza/static/media/Fi.933282b13dd557b81dd4.png",
-    "static/media/logo yoel.png": "/Portafolio-Yoel-Preza/static/media/logo yoel.5bf1aae2ee095be64cf4.png",
+    "static/media/logo_yoel_verde.png": "/Portafolio-Yoel-Preza/static/media/logo_yoel_verde.5ee416718cc62d7327bd.png",
+    "static/media/logo yoel.png": "/Portafolio-Yoel-Preza/static/media/logo yoel.2931388144ba1f373281.png",
     "service-worker.js": "/Portafolio-Yoel-Preza/service-worker.js",
     "static/media/GH.svg": "/Portafolio-Yoel-Preza/static/media/GH.b9e9a9aa6f05e9dfe5dcb8991bda3e4d.svg",
     "static/media/logo.svg": "/Portafolio-Yoel-Preza/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
     "index.html": "/Portafolio-Yoel-Preza/index.html",
     "main.deb5c223.css.map": "/Portafolio-Yoel-Preza/static/css/main.deb5c223.css.map",
-    "main.d603a538.js.map": "/Portafolio-Yoel-Preza/static/js/main.d603a538.js.map"
+    "main.a848597d.js.map": "/Portafolio-Yoel-Preza/static/js/main.a848597d.js.map"
   },
   "entrypoints": [
     "static/css/main.deb5c223.css",
-    "static/js/main.d603a538.js"
+    "static/js/main.a848597d.js"
   ]
 }
