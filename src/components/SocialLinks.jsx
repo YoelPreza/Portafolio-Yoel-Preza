@@ -18,23 +18,30 @@ export default function SocialLinks() {
 
   return (
     <StyledSocialLinks>
-      <a href="https://www.linkedin.com/in/yoel-preza-8031b51a6/"
-        aria-label="Check out my GitHub profile."
-        className="link-icons" 
-        > <FaLinkedin /> 
-        </a>
       <a
+        target="_blank"
+        rel="noreferrer"
+        href="https://www.linkedin.com/in/yoel-preza-8031b51a6/"
+        aria-label="Check out my GitHub profile."
+        className="link-icons"
+      > <FaLinkedin />
+      </a>
+      <a
+        target="_blank"
+        rel="noreferrer"
         href={html_url}
         aria-label="Check out my GitHub profile."
         className="link-icons"
       >
         <FaGithub />
-       
+
 
       </a>
-      
+
       {blog && (
-        <a href={blog} aria-label="External link" className="link-icons">
+        <a target="_blank"
+          rel="noreferrer"
+          href="https://certificates.soyhenry.com/new-cert?id=58bd4f5b43fbda54aa60041413a04cf27cbf3e045d1da817f2836b03a7f6559d" aria-label="External link" className="link-icons">
           {Blog}
         </a>
       )}
